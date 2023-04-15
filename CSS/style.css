@@ -1,0 +1,27 @@
+/* Caja contenedor */
+/* elemento padres */
+
+.principal{
+
+    border: 3px solid black;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.secciones{
+
+    border: 2px solid black;
+    margin-bottom: 10px;
+
+    width: 400px;
+}
+
+.secciones :hover{
+
+    width: 80%;
+}

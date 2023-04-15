@@ -1,5 +1,5 @@
 body {
-  background: red;
+  background: black;
 }
 
 p {
@@ -12,4 +12,8 @@ p {
 
 footer {
   text-align: right;
+}
+
+p {
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
