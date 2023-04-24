@@ -3,8 +3,9 @@
 
 .principal{
 
-    border: 3px solid black;
+   
     padding: 10px;
+    margin-top: 35px;
 
     display: flex;
     flex-direction: row;
@@ -13,9 +14,16 @@
     justify-content: space-between;
 }
 
+.imagen{
+
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
 .secciones{
 
-    border: 2px solid black;
+    
     margin-bottom: 10px;
 
     width: 400px;
@@ -24,4 +32,51 @@
 .secciones :hover{
 
     width: 80%;
+}
+
+.header{
+
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a{
+    background: red;
+    color: white;
+    font-size: 20px;
+
+
+
+}
+
+a:hover{
+
+    background: yellow;
+    color: black;
+
+}
+
+
+.footer1{
+
+    display: flex;
+    
+
+    
+}
+
+li{
+
+    list-style-type: none;
+    text-align: center;
+    width: 400px;
 }
