@@ -1,6 +1,10 @@
 /* Caja contenedor */
 /* elemento padres */
 
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
 .principal{
 
    
@@ -16,8 +20,12 @@
 
 .imagen{
 
-    text-align: center;
-    margin-top: 35px;
+   
+    background-image: url("../img/descarga\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
     
 }
 
